@@ -46,7 +46,7 @@ tailSum(10)
 func tailSum1(_ n: Int) -> Int {
     func sumInternal (_ n: Int, current: Int ) -> Int {
         if n == 0 {
-            return 0
+            return current
         }
         return sumInternal(n - 1 , current: current + n)
     }
