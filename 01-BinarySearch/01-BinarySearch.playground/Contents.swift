@@ -42,7 +42,7 @@ func binarySearch<T: Comparable> (_ array: [T], item: T) -> Int? {
     return nil
 }
 
-//二分查找(直接通过更改数组的长度,可自行尝试)
+//二分查找(直接通过更改数组的长度,使用递归实现，具体代码请查看04)
 
 var array = [1,3,5,7,9,14,16]
 search(array,item:9)
